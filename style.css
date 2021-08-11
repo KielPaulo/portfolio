@@ -1,0 +1,85 @@
+.container-fluid{
+
+	padding: 0;
+	
+}
+
+header{
+
+	margin:20px 30px;
+	
+}
+
+main{
+
+	padding: 10px;
+	margin-top: 30px;
+}
+
+header div.col{
+
+	padding: 0;
+}
+
+header div.carousel-inner img{
+
+	height: 300px;
+	opacity: 0.8;
+	/*box-shadow: 0 0 8px 8px white inset*/
+	padding: 10px;	
+}
+
+header h1{
+
+	color: #E5383B;
+}
+
+.section-about{
+
+	
+	padding: 5px;
+	background-color: #ffffff;
+	background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+	box-shadow: inset 0 0 50px white
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+.section-about img{
+
+
+	height: 250px;
+	width: 250px;
+	/*width: 70%;*/
+	border: solid 5px white;
+	border-radius: 100%;
+	
+}
+.section-projects{
+
+	/*text-align: center;*/
+	margin: 80px 0;
+	padding: 10px;
+}
+.project-container img{
+
+	/*width: 60%;
+	height: 65%;*/
+
+/*	width: 300px;
+	height: 300px;*/
+}
+
+
+.my-navbar1{
+
+	margin-bottom: 40px;
+
+}
+
+footer{
+
+	background-color:#E5383B;
+	padding: 10px;
+	margin-top: 50px;
+}
+
