@@ -1,20 +1,92 @@
-.container-fluid{
+
+*{
+
+	box-sizing: border-box;
+	/*margin: 0;
+	padding: 0;*/
+}
+
+body{
+
+
+}
+
+.container{
 
 	padding: 0;
+
 	
+				
 }
+.container-fluid{
+
+	background-color: #ffffff;
+	background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");
+	padding: 0;
+}
+
 
 header{
 
-	margin:20px 30px;
+	padding: 20px;
+	margin:50px 10px 145px;
+
+}
+
+.my-navbar1{
+
+	margin-bottom: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #e5383b;
 	
+}
+
+@media screen and (min-width: 574px){
+
+	.social-accounts{
+
+		visibility: hidden;
+	}
+
+}
+
+@media screen and (max-width: 574px){
+
+	.social-accounts2{
+
+		visibility: hidden;
+	}
+
 }
 
 main{
 
 	padding: 10px;
-	margin-top: 30px;
+	
 }
+
+.fblogo{
+
+	width: 22px;
+	height: 22px;
+
+}
+.social-accounts, .social-accounts2{
+
+	opacity: 0.8;
+
+	/*padding: 0 10px;*/
+}
+.social-accounts, .social-accounts2 a{
+
+	
+	padding-left: 1px;
+
+
+}
+
+
 
 header div.col{
 
@@ -23,63 +95,156 @@ header div.col{
 
 header div.carousel-inner img{
 
-	height: 300px;
-	opacity: 0.8;
-	/*box-shadow: 0 0 8px 8px white inset*/
-	padding: 10px;	
+	height: 320px;
+	box-shadow: inset 0 0 30px 20px white;
+	
+}
+
+.carousel-under{
+
+	font-style: oblique;
+	color: grey;
+
 }
 
 header h1{
 
 	color: #E5383B;
+	font-family:'Merienda';
+	
 }
 
 .section-about{
 
-	
-	padding: 5px;
+	padding: 15px;
 	background-color: #ffffff;
 	background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
-	box-shadow: inset 0 0 50px white
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	box-shadow: inset 0 0 30px 20px white;
+	margin-bottom: 200px;	
+}
+
+.section-about h3, .section-projects h3, .section-contact h4{
+
+	color: #E5383B;
+	font-style: oblique;
+	margin-left: 10px;
+	font-family:'Merienda';
+}
+
+.section-projects h3{
+
+	margin-bottom: 40px;
+}
+
+.section-about h3{
 
 }
-.section-about img{
-
+.section-about h4{
+	
+}
+.section-about img.avatar{
 
 	height: 250px;
 	width: 250px;
 	/*width: 70%;*/
 	border: solid 5px white;
-	border-radius: 100%;
-	
+	border-radius: 100%;	
+}
+
+.section-about p{
+
+	text-align: justify;
+}
+.webtech-icons img{
+
+	width: 100px;
+	height: 100px;
+
 }
 .section-projects{
 
-	/*text-align: center;*/
-	margin: 80px 0;
+	
 	padding: 10px;
-}
-.project-container img{
-
-	/*width: 60%;
-	height: 65%;*/
-
-/*	width: 300px;
-	height: 300px;*/
+	margin-bottom: 80px;
+	margin-top: 100px;
 }
 
 
-.my-navbar1{
+.section-projects img{
 
-	margin-bottom: 40px;
+	padding: 10px;
 
 }
+
+.section-projects > div{
+
+	padding: 10px;
+	text-align: justify;
+	margin-bottom: 30px;
+
+}
+.section-projects h4{
+
+	color: #BA181B;
+	text-align: center;
+	font-family: 'Amaranth';
+
+}
+
+.section-projects p{
+
+	margin-top:30px;
+	color: #161A1D;
+
+
+}
+.section-projects a{
+
+	text-decoration: none;
+}
+
+
+.project-hover:hover{
+
+	opacity:0.7;
+	color: #E5383B;
+}
+.section-contact{
+
+	
+	padding: 10px;
+	margin: 40px 10px;	
+}
+.section-contact form{
+
+	border: solid 2px #F5F3F4;
+	padding: 8px;
+}
+
 
 footer{
-
-	background-color:#E5383B;
-	padding: 10px;
+	background-color: #e5383b;
+	/*box-shadow: inset 0 0 30px 20px white*/
 	margin-top: 50px;
+	
+	font-size: 1.2em;
+
+}
+
+footer p{
+
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.nav-link{
+
+	color: white;
+}
+
+.nav-link:hover{
+
+	color:#333;
 }
 
