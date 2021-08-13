@@ -225,7 +225,6 @@ main{
 	width: 400px;
 	height: 290px;
 
-
 }
 
 .section-projects p, .contact-questions{
@@ -233,8 +232,6 @@ main{
 	
 	/*color: #161A1D;*/
 	
-	
-
 }
 
 .section-projectsp{
@@ -273,8 +270,9 @@ main{
 
 	font-size: 1.5em;
 	margin-bottom: 25px;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	color: #E5383B;
+	font-style: oblique;
 	
 }
 .contacts-map{
