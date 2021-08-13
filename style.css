@@ -32,7 +32,7 @@ header{
 
 	padding: 30px;
 	margin:80px 10px 150px;
-	background-image: linear-gradient(to left, whitesmoke, white);
+	background-image: linear-gradient(to left, #F5F3F4, white);
 	/*border-bottom-right-radius: 25px;*/
 }
 
@@ -51,13 +51,13 @@ header div.carousel-inner img{
 .carousel-under{
 
 	font-style: oblique;
-	color: #d93025;
+	color: #ba181b;
 	/*font-size: 1.3em;*/	
 }
 
 header h1{
 
-	color:#d93025;
+	color:#ba181b;
 	font-family:'Merienda';
 	/*font-family: 'Montserrat';*/	
 }
@@ -72,7 +72,7 @@ main{
 	margin-bottom: 40px;
 	padding-left: 10px;
 	padding-right: 10px;
-	background-color: #e5383b;
+	background-color: #ba181b;
 	/*background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");*/
 	font-size: 1.1em;
 
@@ -143,7 +143,7 @@ main{
 .section-about h3{
 
 	/*color: #E5383B;*/
-	color:#d93025;
+	color:#ba181b;
 	/*font-style: oblique;*/
 	/*margin-left: 55px;*/
 	font-family:'Merienda';
@@ -154,7 +154,7 @@ main{
 .section-projects h3{
 
 	/*margin-bottom: 40px;*/
-	color:#d93025;
+	color:#ba181b;
 	margin: 0;
 	font-family:'Merienda';
 }
@@ -214,7 +214,7 @@ main{
 }
 .section-projects h4{
 
-	color: #BA181B;
+	color: #ba181b;
 	text-align: center;
 	font-family: 'Montserrat';
 
@@ -252,7 +252,7 @@ main{
 .project-hover:hover{
 
 	opacity:0.7;
-	color: #E5383B;
+	
 }
 .section-contact{
 
@@ -271,7 +271,7 @@ main{
 	font-size: 1.5em;
 	margin-bottom: 25px;
 	/*font-weight: bold;*/
-	color: #E5383B;
+	color: #ba181b;
 	font-style: oblique;
 	
 }
@@ -285,7 +285,7 @@ main{
 
 
 footer{
-	background-color: #e5383b;
+	background-color: #ba181b;
 	/*box-shadow: inset 0 0 30px 20px white*/
 	margin-top: 50px;
 	font-family: 'Montserrat';
