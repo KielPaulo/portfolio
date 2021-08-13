@@ -22,6 +22,9 @@ body{
 	background-color: #ffffff;
 	/*background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");*/
 	padding: 0;
+	background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 
@@ -41,8 +44,9 @@ header{
 	padding-left: 10px;
 	padding-right: 10px;
 	background-color: #e5383b;
-	background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");
-	
+	/*background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");*/
+	font-size: 1.1em;
+
 }
 
 @media screen and (min-width: 574px){
@@ -56,7 +60,7 @@ header{
 
 @media screen and (max-width: 574px){
 
-	.social-accounts2{
+	.social-accounts2, .follow-me{
 
 		visibility: hidden;
 	}
@@ -67,7 +71,13 @@ header{
 	
 		opacity:0.5;
 
-	}
+}
+.follow-me{
+
+	color: rgba(255,255,255,.55);
+	font-family: 'Satisfy';
+	padding-top: 5px;
+}
 
 main{
 
@@ -121,7 +131,8 @@ header div.carousel-inner img{
 
 	font-style: oblique;
 	color: #E5383B;
-	font-size: 1.1em;
+	font-size: 0.9em;
+	font-family: 'Merienda';
 
 }
 .carousel-inner img{
@@ -183,6 +194,8 @@ header h1{
 
 	text-align: justify;
 }
+
+
 .webtech-icons img{
 
 	width: 100px;
@@ -206,7 +219,7 @@ header h1{
 
 .section-projects img{
 
-	width: 400px;
+	/*width: 400px;*/
 	/*height: 250px;*/
 
 }
@@ -219,7 +232,7 @@ header h1{
 	/*margin: 40px 0;*/
 	/*padding-bottom: 30px;*/
 	padding: 10px;
-
+	
 }
 .section-projects h4{
 
@@ -237,10 +250,20 @@ header h1{
 
 .section-projects p, .contact-questions{
 
+	
+	/*color: #161A1D;*/
+	
+	
+
+}
+
+.section-projectsp{
+
 	margin-top:10px;
-	color: #161A1D;
-	font-family: 'Montserrat';
 	line-height:1.8;
+	font-family: 'Montserrat';
+	background-color: white;
+	padding: 10px;
 
 }
 .section-projects a{
@@ -264,6 +287,7 @@ header h1{
 
 	border: solid 2px #F5F3F4;
 	padding: 15px;
+	background-color: whitesmoke;
 }
 .contact-questions{
 
