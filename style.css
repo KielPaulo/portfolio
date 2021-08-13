@@ -75,6 +75,8 @@ main{
 	background-color: #ba181b;
 	/*background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");*/
 	font-size: 1.1em;
+	width: 100%;
+	top: 0;
 
 }
 
