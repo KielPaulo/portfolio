@@ -1,0 +1,49 @@
+
+@media screen and (max-width:992px){
+
+.child1, .child2{
+
+	visibility: hidden;
+}
+
+}
+
+
+.parent{
+
+	position: relative;
+	
+
+}
+
+.child1{
+
+	position: absolute;
+	top: -15%;	
+}
+
+.child2{
+
+	position: absolute;
+	top: -50%;
+}
+
+.child1 img, .child2 img{
+
+	width: 49%;
+	/*height: 60%;*/
+
+}
+
+.mid{
+
+	
+}
+
+.grand-parent{
+
+	/*height:100%;*/
+	width: 107%;
+	
+
+}

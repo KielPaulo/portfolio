@@ -58,7 +58,7 @@ header div.carousel-inner img{
 header h1{
 
 	color:#ba181b;
-	font-family:'Merienda';
+	font-family:'Abel',sans-serif;
 	/*font-family: 'Montserrat';*/	
 }
 
@@ -77,6 +77,7 @@ main{
 	font-size: 1.1em;
 	width: 100%;
 	top: 0;
+	box-shadow: 0 .6rem 1rem rgba(0,0,0,.15);
 
 }
 
@@ -106,7 +107,7 @@ main{
 .follow-me{
 
 	color: rgba(255,255,255,.55);
-	font-family: 'Satisfy';
+	font-family: 'Satisfy',sans-serif;
 	padding-top: 5px;
 }
 
@@ -148,28 +149,29 @@ main{
 	color:#ba181b;
 	/*font-style: oblique;*/
 	/*margin-left: 55px;*/
-	/*font-family:'Merienda';*/
-	font-family:'Merienda';
+	/*font-family:'Abel';*/
+	font-family:'Abel',sans-serif;
 	margin-bottom: 20px;
 	
 }
+
 
 .section-projects h3{
 
 	/*margin-bottom: 40px;*/
 	color:#ba181b;
 	margin: 0;
-	font-family:'Merienda';
+	font-family:'Abel',sans-serif;
 }
 
-.section-about img.avatar{
+/*.section-about img.avatar{
 
 	height: 250px;
 	width: 250px;
-	/*width: 70%;*/
+	width: 70%;
 	border: solid 5px white;
 	border-radius: 100%;	
-}
+}*/
 
 .section-about p{
 
@@ -177,10 +179,21 @@ main{
 }
 
 
+
+@media screen and (min-width:992px){
+
+.webtech-icons{
+
+	visibility: hidden;
+}
+
+}
+
+
 .webtech-icons img{
 
-	width: 100px;
-	height: 100px;
+	width:15%;
+/*	height: 100px;*/
 
 }
 .section-projects{
@@ -219,7 +232,7 @@ main{
 
 	color: #ba181b;
 	text-align: center;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat',sans-serif;
 
 }
 .section-projects > div img{
@@ -241,7 +254,7 @@ main{
 
 	margin-top:10px;
 	line-height:1.8;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat',sans-serif;
 	background-color: white;
 	padding: 10px;
 
@@ -269,6 +282,13 @@ main{
 	padding: 15px;
 	background-color: whitesmoke;
 }
+
+.form-control{
+
+	resize: none;
+
+
+}
 .contact-questions{
 
 	font-size: 1.5em;
@@ -291,7 +311,7 @@ footer{
 	background-color: #ba181b;
 	/*box-shadow: inset 0 0 30px 20px white*/
 	margin-top: 50px;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat',sans-serif;
 	padding: 5px;
 	background-image: url("https://www.transparenttextures.com/patterns/groovepaper.png");
 	
@@ -304,7 +324,7 @@ footer p{
 	text-align: center;
 	padding: 0;
 	margin: 0;
-	font-family: 'Satisfy';
+	font-family: 'Satisfy',sans-serif;
 	color: white;
 	font-size: 1.5em;
 }
