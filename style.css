@@ -85,8 +85,56 @@ main{
 	font-size: 1.1em;
 	width: 100%;
 	box-shadow: 0 .7rem 1rem rgba(0,0,0,.15);
+	
+
 
 }
+
+.fadeIn{
+
+
+	animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
 
 @media screen and (min-width: 574px){
 
@@ -282,7 +330,7 @@ main{
 
 .project-hover:hover{
 
-	opacity:0.7;
+	/*opacity:0.7;*/
 	
 }
 .section-contact{
