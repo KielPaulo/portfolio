@@ -36,6 +36,25 @@ contactForm.addEventListener('submit', (e)=>{
 		})
 	})
 
+	.then(result=> result.text())
+	.then(result=>{
+
+		if(result == "Success"){
+
+			alert("Message sent");
+
+			name.value="";
+			email.value="";
+			contactNo.value="";
+			message.value=""
+
+		}else{
+
+			alert("Something went wrong");
+		}
+
+
+	})
 
 
 
