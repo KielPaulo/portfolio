@@ -23,7 +23,7 @@ contactForm.addEventListener('submit', (e)=>{
 
 	}
 
-	fetch('http://localhost:4000/api/users/contact',{
+	fetch('https://immense-shore-64525.herokuapp.com/api/users/contact',{
 
 		method: "POST",
 		headers: {
