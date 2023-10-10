@@ -1,438 +1,417 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<!-- 	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet"> -->
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet" />
 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
 
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
 
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./style-about-avatar.css" />
 
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Kiel Layug | Portfolio</title>
+  </head>
 
-	<link rel="stylesheet" type="text/css" href="./style.css">
-	<link rel="stylesheet" type="text/css" href="./style-about-avatar.css">
+  <body>
+    <div class="container-fluid" id="home-link">
+      <nav class="navbar fixed-top navbar-expand-sm navbar-dark my-navbar1">
+        <div class="container">
+          <button
+            class="navbar-toggler ml-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-	<title>Kiel Layug | Portfolio</title>
-</head>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-link">Contact</a>
+              </li>
+              <div class="social-accounts">
+                <li class="nav-item">
+                  <a class="nav-link" target="_blank" href="https://facebook.com/kiyelfaulo"
+                    ><img class="fblogo" src="./images/facebook-circular-logo.png"
+                  /></a>
+                </li>
+              </div>
+              <div class="social-accounts">
+                <li class="nav-item">
+                  <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/kiel-paulo-layug-aa859721a/"
+                    ><img class="fblogo" src="./images/linkedin_black_logo_icon_147114.png"
+                  /></a>
+                </li>
+              </div>
+            </ul>
+          </div>
 
+          <div class="me-3 follow-me">Social links</div>
+          <div class="social-accounts2">
+            <a class="nav-link" target="_blank" href="https://facebook.com/kiyelfaulo"
+              ><img class="fblogo" src="./images/facebook-circular-logo.png"
+            /></a>
+          </div>
+          <div class="social-accounts2">
+            <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/kiel-paulo-layug-aa859721a/"
+              ><img class="fblogo" src="./images/linkedin_black_logo_icon_147114.png"
+            /></a>
+          </div>
+        </div>
+      </nav>
+    </div>
 
-<body>
+    <div class="container">
+      <header>
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 align-self-center stack-child1 fadeIn">
+            <div class="jumbotron my-jumbotron">
+              <h1 class="display-1">Hi! I'm Kiel</h1>
+              <p class="lead">Full Stack Web Developer, IT enthusiast, Photography Hobbyist.</p>
+              <hr class="my-2" />
+              <p>Let's create something wonderful!</p>
+              <p class="lead">
+                <a class="btn btn-danger btn-lg" href="#contact-link" role="button">Contact Me</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <span id="about-link"></span>
+      </header>
 
+      <!-- About -->
+      <main>
+        <div class="row section-about g-0 justify-content-center">
+          <!-- Experiment here -->
+          <div class="col-12 col-lg-5 align-self-center">
+            <div class="row grand-parent g-0">
+              <div class="col-3 parent p-0">
+                <div class="child1 text-end">
+                  <img src="./images/logo-bootstrap.png" alt="" />
+                  <img src="./images/logo-css3.png" alt="" />
+                  <img src="./images/logo-expressjs.png" alt="" />
+                  <img src="./images/logo-git.png" alt="" />
+                  <img src="./images/logo-gitlab-ci-cd.png" alt="" />
+                  <img src="./images/logo-heroku.png" alt="" />
+                  <img src="./images/logo-html5.png" alt="" />
+                </div>
+              </div>
 
-	<div class="container-fluid" id="home-link">
+              <div class="col-6 align-self-center p-0"><img class="img-fluid rounded-circle" src="./images/avatar.jpg" /></div>
 
-	<nav class="navbar fixed-top navbar-expand-sm navbar-dark my-navbar1">
+              <div class="col-3 parent text-start p-0">
+                <div class="child2">
+                  <img src="./images/logo-javascript.png" alt="" />
+                  <img src="./images/logo-mongodb.png" alt="" />
+                  <img src="./images/logo-nodejs.png" alt="" />
+                  <img src="./images/logo-postman.png" alt="" />
+                  <img src="./images/logo-react.png" alt="" />
+                  <img src="./images/logo-rest.png" alt="" />
+                  <img src="./images/logo-sublime-text-3.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
 
-		<div class="container">
-
-	    <button class="navbar-toggler ml-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	      <span class="navbar-toggler-icon"></span>
-	    </button>
-	    
-		    <div class="collapse navbar-collapse" id="navbarNav">
-		      <ul class="navbar-nav">
-		        <li class="nav-item">
-		          <a class="nav-link" href="./index.html">Home</a>
-		        </li>
-		        <li class="nav-item">
-		          <a class="nav-link" href="#about-link">About</a>
-		        </li>
-		        <li class="nav-item">
-		          <a class="nav-link" href="#projects-link">Projects</a>
-		        </li>
-		        <li class="nav-item">
-		          <a class="nav-link" href="#contact-link">Contact</a>
-		        </li> 
-		        <div class="social-accounts">
-			        <li class="nav-item">
-			          <a class="nav-link" target="_blank" href="https://facebook.com/kiyelfaulo"><img class="fblogo" src="./images/facebook-circular-logo.png"></a>
-			        </li> 
-			    </div>
-			 	<div class="social-accounts">
-			        <li class="nav-item">
-			          <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/kiel-paulo-layug-aa859721a/"><img class="fblogo" src="./images/linkedin_black_logo_icon_147114.png"></a>
-			        </li> 
-		   		</div>
-
-		      </ul>      
-		    </div>
-		   
-		    <div class="me-3 follow-me">Social links</div> 
-		     <div class="social-accounts2"> 
-
-			          <a class="nav-link" target="_blank" href="https://facebook.com/kiyelfaulo"><img class="fblogo" src="./images/facebook-circular-logo.png"></a>
-			        
-			    </div>
-			 	<div class="social-accounts2">
-			        
-			          <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/kiel-paulo-layug-aa859721a/"><img class="fblogo" src="./images/linkedin_black_logo_icon_147114.png"></a>  
-		   	</div>
-	    
-	  </div>
-	</nav>
-	</div>
-
-	<div class="container">
-	<header>
-		<div class="row justify-content-center">
-			<div class="col-12 col-md-8 align-self-center stack-child1 fadeIn">
-				<div class="jumbotron my-jumbotron">
-				  <h1 class="display-1">Hi! I'm Kiel</h1>
-				  <p class="lead">Full Stack Web Developer, IT enthusiast, Photography Hobbyist.</p>
-				  <hr class="my-2">
-				  <p>Let's create something wonderful!</p>
-				  <p class="lead">
-				    <a class="btn btn-danger btn-lg" href="#contact-link" role="button">Contact Me</a>
-				  </p>
-				</div>
-			</div>
-
-		</div>
-		<span id="about-link"></span>
-	</header>
-
-
-	<!-- About -->
-	<main>
-		<div class="row section-about g-0 justify-content-center">
-			<!-- Experiment here -->
-				<div class="col-12  col-lg-5 align-self-center">
-
-					<div class="row grand-parent g-0">
-					  <div class="col-3 parent p-0">
-
-					    <div class="child1 text-end">
-
-					    <img src="./images/logo-bootstrap.png" alt="">
-					    <img src="./images/logo-css3.png" alt="">
-					    <img src="./images/logo-expressjs.png" alt="">
-					    <img src="./images/logo-git.png" alt="">
-					    <img src="./images/logo-gitlab-ci-cd.png" alt="">
-					    <img src="./images/logo-heroku.png" alt="">
-					    <img src="./images/logo-html5.png" alt="">
-
-					    </div>
-					    
-					  </div>
-
-					  <div class="col-6 align-self-center p-0"><img class="img-fluid rounded-circle" src="./images/avatar.jpg"></div>
-
-					  <div class="col-3 parent text-start p-0">
-
-					    <div class="child2">
-
-					    <img src="./images/logo-javascript.png" alt="">
-					    <img src="./images/logo-mongodb.png" alt="">
-					    <img src="./images/logo-nodejs.png" alt="">
-					    <img src="./images/logo-postman.png" alt="">
-					    <img src="./images/logo-react.png" alt="">
-					    <img src="./images/logo-rest.png" alt="">
-					    <img src="./images/logo-sublime-text-3.png" alt="">
-
-					    </div>
-					    
-					  </div>
-					</div>
-			</div>
-
-
-
-
-
-
-
-
-
-
-
-			<!-- <div class="col-12  col-md-4 text-center align-self-md-center pe-sm-4">
+          <!-- <div class="col-12  col-md-4 text-center align-self-md-center pe-sm-4">
 			
 				<img class="avatar img-fluid" src="./images/avatar.jpg">
 			</div> -->
 
-
-
-
-			<div class="col-12 col-lg-5 mt-5">
-				
-				
-				<h3 class="display-5">About</h3>
-				<h4 class="display-6">Kiel Paulo M. Layug</h4>
-				<div class="about-p-container">
-			<!-- 	<p class="lead">An eye for aesthetic and passion in programming, that is what motivated me in being a Full Stack Developer. 
+          <div class="col-12 col-lg-5 mt-5">
+            <h3 class="display-5">About</h3>
+            <h4 class="display-6">Kiel Paulo M. Layug</h4>
+            <div class="about-p-container">
+              <!-- 	<p class="lead">An eye for aesthetic and passion in programming, that is what motivated me in being a Full Stack Developer. 
 				</p> -->
 
-				<p class="lead">Graduated with a Bachelor's Degree in Computer Science. After college, I have worked in the BPO Industry as Technical Support for a software company and then a Customer Service Representative for a travel account. I have also worked abroad. In Japan, I was Technical Intern Trainee. Learning
-				skills in Machining while also learning the Japanese Language. </p>
+              <p class="lead">
+                I earned a Bachelor's Degree in Computer Science and began my career in the BPO industry, first as a Technical Support agent
+                for a software company and later as a Customer Service Representative for a travel account. I also gained international
+                experience as a Technical Intern Trainee in Japan, where I learned machining skills and the Japanese language.
+              </p>
 
+              <p class="lead">
+                To further enhance my coding skills, I attended a coding bootcamp, where I successfully completed intensive training and
+                built challenging capstone projects using the <strong>MERN Stack</strong> and <strong>Bootstrap</strong>. Following the
+                bootcamp, I worked as a Junior Web Developer.
+              </p>
+            </div>
 
-				<p class="lead">
-				Being a Computer Science Graduate, I have further improved my coding knowledge by joining a coding bootcamp. For short period of time, with the intensive training, I'm proud that I was able to build challenging capstone projects built with hot topics in web development such as the <strong>MERN Stack</strong> and <strong>Bootstrap</strong>.
-				</p>
+            <div class="webtech-icons text-center">
+              <img src="./images/logo-bootstrap.png" alt="" />
+              <img src="./images/logo-css3.png" alt="" />
+              <img src="./images/logo-expressjs.png" alt="" />
+              <img src="./images/logo-git.png" alt="" />
+              <img src="./images/logo-gitlab-ci-cd.png" alt="" />
+              <img src="./images/logo-heroku.png" alt="" />
+              <img src="./images/logo-html5.png" alt="" />
+              <img src="./images/logo-javascript.png" alt="" />
+              <img src="./images/logo-mongodb.png" alt="" />
+              <img src="./images/logo-nodejs.png" alt="" />
+              <img src="./images/logo-postman.png" alt="" />
+              <img src="./images/logo-react.png" alt="" />
+              <img src="./images/logo-rest.png" alt="" />
+              <img src="./images/logo-sublime-text-3.png" alt="" />
+            </div>
+          </div>
 
-				</div>
-				
-				
+          <span id="projects-link"></span>
+        </div>
 
-				<div class="webtech-icons text-center">
-		
-					    <img src="./images/logo-bootstrap.png" alt="">
-					    <img src="./images/logo-css3.png" alt="">
-					    <img src="./images/logo-expressjs.png" alt="">
-					    <img src="./images/logo-git.png" alt="">
-					    <img src="./images/logo-gitlab-ci-cd.png" alt="">
-					    <img src="./images/logo-heroku.png" alt="">
-					    <img src="./images/logo-html5.png" alt="">
-					    <img src="./images/logo-javascript.png" alt="">
-					    <img src="./images/logo-mongodb.png" alt="">
-					    <img src="./images/logo-nodejs.png" alt="">
-					    <img src="./images/logo-postman.png" alt="">
-					    <img src="./images/logo-react.png" alt="">
-					    <img src="./images/logo-rest.png" alt="">
-					    <img src="./images/logo-sublime-text-3.png" alt="">
-				</div>
-			
-			</div>
+        <!-- Projects -->
 
-			<span id="projects-link"></span>
-	
-		</div>
+        <div class="row section-projects">
+          <h3 class="display-5 col-12 text-center">Projects</h3>
+          <!-- <span class="col-12 text-center p-0 m-0"><img src="./images/redunder2.png" class="redunder w-25 img-fluid"></span> -->
 
+          <div class="col-12">
+            <div class="row justify-content-center">
+              <div class="col-sm-12 col-md-5 project-hover">
+                <h4>Portfolio</h4>
 
-		<!-- Projects -->
+                <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./images/portfolio1.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/portfolio2.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/portfoliom3.jpg" class="d-block w-100" alt="..." />
+                    </div>
 
+                    <div class="carousel-item">
+                      <img src="./images/portfoliom4.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
 
-		<div class="row section-projects">
+              <div class="col-sm-12 col-md-5 align-self-center section-projectsp">
+                <p>
+                  My very own simple and clean portfolio. Built HTML/CSS and Bootstrap. Also with a contact form that uses
+                  <strong>Javascript</strong> with <strong>Node.js</strong> nodemailer. Site is mobile responsive and will adjust to
+                  different viewports.
+                </p>
 
-			<h3 class="display-5 col-12 text-center">Projects</h3>
-			<!-- <span class="col-12 text-center p-0 m-0"><img src="./images/redunder2.png" class="redunder w-25 img-fluid"></span> -->
+                <p>This portfolio is still on progress and I'm planning to add some fancy animations in the future.</p>
+              </div>
+            </div>
+          </div>
 
-			<div class="col-12">
-				<div class="row justify-content-center">
-
-					<div class="col-sm-12 col-md-5 project-hover">
-						<h4>Portfolio</h4>
-			
-					<div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
-					  <div class="carousel-inner">
-					    <div class="carousel-item active">
-					      <img src="./images/portfolio1.jpg" class="d-block w-100" alt="...">
-					    </div>
-					    <div class="carousel-item">
-					      <img src="./images/portfolio2.jpg" class="d-block w-100" alt="...">
-					    </div>
-					    <div class="carousel-item">
-					      <img src="./images/portfoliom3.jpg" class="d-block w-100" alt="...">
-					    </div>
-
-					    <div class="carousel-item">
-					      <img src="./images/portfoliom4.jpg" class="d-block w-100" alt="...">
-					    </div>
-					  </div>
-					  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
-					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					    <span class="visually-hidden">Previous</span>
-					  </button>
-					  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
-					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-					    <span class="visually-hidden">Next</span>
-					  </button>
-					</div>
-
-
-					</div>
-
-					<div class="col-sm-12 col-md-5 align-self-center section-projectsp">
-					<p>My very own simple and clean portfolio. Built HTML/CSS and Bootstrap. Also with a contact form that uses <strong>Javascript</strong> with <strong>Node.js</strong> nodemailer. Site is mobile responsive and will adjust to different viewports.</p>
-
-					<p>This portfolio is still on progress and I'm planning to add some fancy animations in the future.</p>
-
-				
-					</div>
-				</div>
-			</div>
-				
-			
-	
-
-				<div class="col-12">
-					<div class="row justify-content-center">
-						<div class="col-sm-12 col-md-5 project-hover order-md-2">
-							<h4>E-commerce site</h4>
-				    <!-- <a href="https://google.com" title="Click to visit"><h4>Zuitt</h4>
+          <div class="col-12">
+            <div class="row justify-content-center">
+              <div class="col-sm-12 col-md-5 project-hover order-md-2">
+                <h4>E-commerce site</h4>
+                <!-- <a href="https://google.com" title="Click to visit"><h4>Zuitt</h4>
 						<img class="img-fluid mx-auto d-block" src="./images/sc2.png">
 						</a> -->
 
-						<div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
-						  <div class="carousel-inner">
-						    <div class="carousel-item active">
-						      <img src="./images/cap3_7.jpg" class="d-block w-100" alt="...">
-						    </div>
-						    <div class="carousel-item">
-						      <img src="./images/cap3_2.jpg" class="d-block w-100" alt="...">
-						    </div>
-						    <div class="carousel-item">
-						      <img src="./images/cap3_4.jpg" class="d-block w-100" alt="...">
-						    </div>
-						       <div class="carousel-item">
-						      <img src="./images/cap3_5.jpg" class="d-block w-100" alt="...">
-						    </div>
-						       <div class="carousel-item">
-						      <img src="./images/cap3_3.jpg" class="d-block w-100" alt="...">
-						    </div>
+                <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./images/cap3_7.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/cap3_2.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/cap3_4.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/cap3_5.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/cap3_3.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
 
+              <div class="col-sm-12 col-md-5 order-md-1 align-self-center section-projectsp">
+                <p>
+                  One of my capstone projects in coding bootcamp. An e-commerce site made with <strong>MERN stack</strong> (MongoDB,
+                  Express, ReactJS, Node.js)
+                </p>
 
-						  </div>
-						  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
-						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						    <span class="visually-hidden">Previous</span>
-						  </button>
-						  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
-						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-						    <span class="visually-hidden">Next</span>
-						  </button>
-						</div>
-						</div>
+                <p>
+                  Full Admin CRUD operation on products, Archive/Unarchive, Feature product on Homepage, User authentication, Add to Cart
+                  function with quantity selector, Image upload are several of its features. Site is live and can be checked out using this
+                  link<br /><br /><a href="https://happy-beaver-11885b.netlify.app/" target="_blank">Kaimono E-commerce Site</a>
+                </p>
+              </div>
+            </div>
+          </div>
 
-						<div class="col-sm-12 col-md-5 order-md-1 align-self-center section-projectsp">
-						<p>One of my capstone projects in coding bootcamp. An e-commerce site made with <strong>MERN stack</strong> (MongoDB, Express, ReactJS, Node.js)</p>
+          <div class="col-12">
+            <div class="row justify-content-center">
+              <div class="col-sm-12 col-md-5 project-hover">
+                <h4>CNPPO Crime Reporting System</h4>
 
-						<p>Full Admin CRUD operation on products, Archive/Unarchive, Feature product on Homepage, User authentication, Add to Cart function with quantity selector, Image upload are several of its features. Site is live and can be checked out using this link<br/><br/><a href="https://happy-beaver-11885b.netlify.app/" target="_blank">Kaimono E-commerce Site</a></p>
-						</div>
-					</div>
-				</div>
+                <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./images/cnppo2.png" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/cnppo3.png" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/cnppo6.png" class="d-block w-100" alt="..." />
+                    </div>
 
-				<div class="col-12">
-					<div class="row justify-content-center">
+                    <div class="carousel-item">
+                      <img src="./images/localhost_cnppo_crimeindex_editreport_CN-13-00001.png" class="d-block w-100" alt="..." />
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
 
-						<div class="col-sm-12 col-md-5 project-hover">
-							<h4>CNPPO Crime Reporting System</h4>
-		
-						<div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
-						  <div class="carousel-inner">
-						    <div class="carousel-item active">
-						      <img src="./images/cnppo2.png" class="d-block w-100" alt="...">
-						    </div>
-						    <div class="carousel-item">
-						      <img src="./images/cnppo3.png" class="d-block w-100" alt="...">
-						    </div>
-						    <div class="carousel-item">
-						      <img src="./images/cnppo6.png" class="d-block w-100" alt="...">
-						    </div>
+              <div class="col-sm-12 col-md-5 align-self-center section-projectsp">
+                <p>An E-Blotter system for the Camarines Norte Provincial Police Office.</p>
 
-						    <div class="carousel-item">
-						      <img src="./images/localhost_cnppo_crimeindex_editreport_CN-13-00001.png" class="d-block w-100" alt="...">
-						    </div>
-						  </div>
-						  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
-						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						    <span class="visually-hidden">Previous</span>
-						  </button>
-						  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
-						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-						    <span class="visually-hidden">Next</span>
-						  </button>
-						</div>
+                <p>
+                  One of my project when I was in college in 2013. A web based CRUD system we proposed to the PNP for faster,convenient and
+                  secure dissemination of information through its network of offices. The system also acts as an E-blotter system so as to
+                  replace the old fashioned pen and paper way.
+                </p>
 
+                <p>
+                  Prints reports in PDF, secure user authentication, functional email server are some of it's features. Built using HTML,
+                  CSS, Javascript for front end. While the database and backend system were built with
+                  <strong>PHP Codeigniter framework</strong> and <strong>mySQL</strong> database.
+                </p>
+              </div>
+            </div>
+          </div>
 
-						</div>
+          <span id="contact-link"></span>
+        </div>
 
-						<div class="col-sm-12 col-md-5 align-self-center section-projectsp">
-						<p>An E-Blotter system for the Camarines Norte Provincial Police Office.</p>
+        <div class="row section-contact justify-content-center">
+          <div class="contact-questions">Do you have any questions? Feel free to message me</div>
+          <div class="col-12 col-md-6">
+            <form class="contact-form">
+              <h4>Contact</h4>
+              <div class="mb-3">
+                <label for="contact-name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="contact-name" required />
+                <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+              </div>
+              <div class="mb-3">
+                <label for="contact-email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="contact-email" required />
+              </div>
+              <div class="mb-3">
+                <label for="contact-phone" class="form-label">Contact Number</label>
+                <input type="text" class="form-control" id="contact-phone" />
+              </div>
 
-						<p>One of my project when I was in college in 2013. A web based CRUD system we proposed to the PNP for faster,convenient and secure dissemination of information through its network of offices. The system also acts as an E-blotter system so as to replace the old fashioned pen and paper way.</p>
+              <div class="mb-3">
+                <label for="contact-message" class="form-label">Message</label>
+                <textarea class="form-control" id="contact-message" rows="5" required></textarea>
+              </div>
 
-						<p>Prints reports in PDF, secure user authentication, functional email server are some of it's features. Built using HTML, CSS, Javascript for front end. While the database and backend system were built with <strong>PHP Codeigniter framework</strong> and <strong>mySQL</strong> database.</p>
-						</div>
-					</div>
-				</div>
+              <button type="submit" class="btn btn-danger">Submit</button>
+            </form>
+          </div>
 
-				<span id="contact-link"></span>
+          <div class="col-12 col-md-6 contacts-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d483.68327446088654!2d123.0070587!3d14.1086591!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3398adc93d58ac5f%3A0x969e07bdf181875a!2sMercedes%2C%20Camarines%20Norte!5e0!3m2!1sen!2sph!4v1628657230716!5m2!1sen!2sph"
+              width="600"
+              height="450"
+              class="w-100 h-100"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </main>
+    </div>
 
-		</div>
-
-
-		<div class="row section-contact justify-content-center">
-
-			<div class="contact-questions">Do you have any questions? Feel free to message me</div>
-			<div class="col-12 col-md-6">
-				
-
-				<form class="contact-form">
-				  <h4>Contact</h4>
-				  <div class="mb-3">
-				    <label for="contact-name" class="form-label">Name</label>
-				    <input type="text" class="form-control" id="contact-name" required>
-				    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-				  </div>
-				  <div class="mb-3">
-				    <label for="contact-email" class="form-label" >Email</label>
-				    <input type="email" class="form-control" id="contact-email" required>
-				  </div>
-				  <div class="mb-3">
-				    <label for="contact-phone" class="form-label">Contact Number</label>
-				    <input type="text" class="form-control" id="contact-phone">
-				  </div>
-
-				  <div class="mb-3">
-				  	 <label for="contact-message" class="form-label">Message</label>
-				     <textarea class="form-control" id="contact-message" rows="5" required></textarea>
-				  </div>
-
-				  <button type="submit" class="btn btn-danger">Submit</button>
-				</form>
-			</div>
-
-
-			<div class="col-12 col-md-6 contacts-map">
-				
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d483.68327446088654!2d123.0070587!3d14.1086591!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3398adc93d58ac5f%3A0x969e07bdf181875a!2sMercedes%2C%20Camarines%20Norte!5e0!3m2!1sen!2sph!4v1628657230716!5m2!1sen!2sph" width="600" height="450"class="w-100 h-100"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-			</div>
-		</div>
-		
-	</main>
-	</div>
-
-	<footer>
-
-		<ul class="nav justify-content-center">
-
-		  <li class="nav-item">
-		    <a class="nav-link" href="#home-link">Back to top</a>
-		  </li>
-		  <!-- <li class="nav-item">
+    <footer>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#home-link">Back to top</a>
+        </li>
+        <!-- <li class="nav-item">
 		    <a class="nav-link" href="#about-link">About</a>
 		  </li>
 		  <li class="nav-item">
 		    <a class="nav-link" href="#projects-link">Projects</a>
 		  </li> -->
-	<!-- 	  <li class="nav-item">
+        <!-- 	  <li class="nav-item">
 		    <a class="nav-link" href="#contact-link">Contact</a>
 		  </li> -->
-		</ul>
-		<p>Kiel Paulo Layug</p>
-	
+      </ul>
+      <p>Kiel Paulo Layug</p>
+    </footer>
 
-	</footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
 
-	
-
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="contact.js"></script>
-
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="contact.js"></script>
+  </body>
 </html>
